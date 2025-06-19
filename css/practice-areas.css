@@ -1,0 +1,395 @@
+/* Practice Area Overview */
+.practice-overview {
+  padding: 5rem 0;
+  background-color: var(--white);
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.overview-content h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.overview-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.practice-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.practice-stats .stat-item {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.practice-stats .stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.practice-stats .stat-item h3 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.practice-stats .stat-item p {
+  color: var(--text-light);
+  font-weight: 500;
+  margin: 0;
+}
+
+.overview-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Case Types */
+.case-types {
+  padding: 5rem 0;
+  background-color: var(--light-gray);
+}
+
+.case-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.case-type-card {
+  background-color: var(--white);
+  padding: 2.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.case-type-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.case-icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.case-icon i {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.case-type-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.case-type-card p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.case-type-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.case-type-card ul li {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.case-type-card ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Accident Guide */
+.accident-guide {
+  padding: 5rem 0;
+  background-color: var(--white);
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.guide-content h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.guide-content > p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.guide-steps {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.step-item:hover {
+  transform: translateX(5px);
+  box-shadow: var(--shadow);
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.step-content p {
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.guide-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Case Results */
+.case-results {
+  padding: 5rem 0;
+  background-color: var(--light-gray);
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.result-card {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.result-type {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.result-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.result-card p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.result-details {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.result-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.result-details i {
+  color: var(--accent-color);
+}
+
+.results-disclaimer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.results-disclaimer p {
+  color: var(--text-light);
+  font-style: italic;
+  margin: 0;
+}
+
+/* Why Choose Practice */
+.why-choose-practice {
+  padding: 5rem 0;
+  background-color: var(--white);
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.advantage-card {
+  text-align: center;
+  padding: 2.5rem;
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.advantage-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.advantage-icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.advantage-icon i {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.advantage-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.advantage-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overview-grid,
+  .guide-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .practice-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .case-types-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .step-number {
+    margin: 0 auto 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-type-card,
+  .result-card,
+  .advantage-card {
+    padding: 1.5rem;
+  }
+
+  .guide-content h2,
+  .overview-content h2 {
+    font-size: 1.75rem;
+  }
+}

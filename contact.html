@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Riverside Legal Group | Portland, Oregon</title>
+    <meta name="description" content="Contact Riverside Legal Group in Portland, Oregon. Schedule a free consultation, get directions, or call us at (503) 555-0123.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Riverside Legal Group</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Practice Areas <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="personal-injury.html">Personal Injury</a></li>
+                                <li><a href="business-law.html">Business Law</a></li>
+                                <li><a href="estate-planning.html">Estate Planning</a></li>
+                                <li><a href="family-law.html">Family Law</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="attorneys.html">Attorneys</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="results.html">Case Results</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-contact">
+                    <a href="tel:503-555-0123" class="phone-number">(503) 555-0123</a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our experienced legal team today</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h2>Get Your Free Consultation</h2>
+                    <p>Don't wait to get the legal help you need. Contact us today for a free, confidential consultation with one of our experienced attorneys.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:503-555-0123">(503) 555-0123</a></p>
+                                <p class="contact-note">Available 24/7 for emergencies</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:info@riversidelegal.com">info@riversidelegal.com</a></p>
+                                <p class="contact-note">We respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Visit Our Office</h3>
+                                <p>1234 SW Main Street<br>Portland, OR 97201</p>
+                                <p class="contact-note">Downtown Portland location</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Office Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                                <p class="contact-note">Evening appointments available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <div class="contact-form">
+                        <h3>Schedule Your Free Consultation</h3>
+                        <form id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="first-name">First Name *</label>
+                                    <input type="text" id="first-name" name="first-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name">Last Name *</label>
+                                    <input type="text" id="last-name" name="last-name" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="legal-matter">Legal Matter *</label>
+                                <select id="legal-matter" name="legal-matter" required>
+                                    <option value="">Select a practice area</option>
+                                    <option value="personal-injury">Personal Injury</option>
+                                    <option value="car-accident">Car Accident</option>
+                                    <option value="slip-fall">Slip and Fall</option>
+                                    <option value="medical-malpractice">Medical Malpractice</option>
+                                    <option value="business-law">Business Law</option>
+                                    <option value="estate-planning">Estate Planning</option>
+                                    <option value="family-law">Family Law</option>
+                                    <option value="divorce">Divorce</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="urgency">Urgency Level</label>
+                                <select id="urgency" name="urgency">
+                                    <option value="standard">Standard - Within a week</option>
+                                    <option value="urgent">Urgent - Within 48 hours</option>
+                                    <option value="emergency">Emergency - Same day</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Brief Description of Your Case</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Please provide a brief description of your legal matter..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="agreement" required>
+                                    <span class="checkmark"></span>
+                                    I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#" target="_blank">Privacy Policy</a>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Schedule Free Consultation</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Location & Directions -->
+    <section class="office-location">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-info">
+                    <h2>Our Office Location</h2>
+                    <p>Conveniently located in downtown Portland, our office is easily accessible by car, public transportation, or on foot.</p>
+                    
+                    <div class="location-details">
+                        <div class="location-item">
+                            <h3><i class="fas fa-map-marker-alt"></i> Address</h3>
+                            <p>1234 SW Main Street<br>Portland, OR 97201</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h3><i class="fas fa-car"></i> Parking</h3>
+                            <p>Free parking available in our building's garage. Enter from SW 2nd Avenue. Street parking also available on Main Street and surrounding blocks.</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h3><i class="fas fa-bus"></i> Public Transportation</h3>
+                            <p>MAX Light Rail: Pioneer Square Station (2 blocks)<br>Bus Routes: 4, 6, 8, 9, 12, 15, 17, 19, 20</p>
+                        </div>
+                        
+                        <div class="location-item">
+                            <h3><i class="fas fa-wheelchair"></i> Accessibility</h3>
+                            <p>Our office is fully accessible with ramps, elevators, and accessible restrooms. Service animals welcome.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <h3>Interactive Map</h3>
+                        <p>Click to view our location on Google Maps</p>
+                        <a href="https://maps.google.com/?q=1234+SW+Main+Street+Portland+OR+97201" target="_blank" class="btn btn-outline">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-contact">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="emergency-text">
+                    <h2>Emergency Legal Help</h2>
+                    <p>If you're facing an urgent legal situation that requires immediate attention, we're here to help 24/7.</p>
+                    <div class="emergency-actions">
+                        <a href="tel:503-555-0123" class="btn btn-secondary">Call Now: (503) 555-0123</a>
+                        <a href="mailto:emergency@riversidelegal.com" class="btn btn-outline">Emergency Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about contacting and working with our firm</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How much does a consultation cost?</h3>
+                    <p>All initial consultations are completely free. We believe everyone should have access to quality legal advice without financial barriers.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How quickly can I get an appointment?</h3>
+                    <p>We typically schedule consultations within 24-48 hours. For urgent matters, we can often accommodate same-day appointments.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What should I bring to my consultation?</h3>
+                    <p>Bring any relevant documents, police reports, medical records, or correspondence related to your case. If you don't have documents yet, that's okay too.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer virtual consultations?</h3>
+                    <p>Yes, we offer phone and video consultations for your convenience. We can accommodate both in-person and remote meetings.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What if I can't afford an attorney?</h3>
+                    <p>We offer flexible payment plans and work on contingency fees for personal injury cases. We also provide pro bono services for qualifying cases.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I know if I have a case?</h3>
+                    <p>Every situation is unique. The best way to determine if you have a case is to schedule a free consultation where we can evaluate your specific circumstances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Don't wait to get the legal help you need. Contact us today for your free consultation.</p>
+                <div class="cta-buttons">
+                    <a href="tel:503-555-0123" class="btn btn-primary">Call Now: (503) 555-0123</a>
+                    <a href="#contact-form" class="btn btn-secondary">Schedule Online</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Riverside Legal Group</h3>
+                    <p>Your trusted legal advocates in Portland, Oregon. Providing experienced representation for over 15 years.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li><a href="personal-injury.html">Personal Injury</a></li>
+                        <li><a href="business-law.html">Business Law</a></li>
+                        <li><a href="estate-planning.html">Estate Planning</a></li>
+                        <li><a href="family-law.html">Family Law</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="attorneys.html">Our Attorneys</a></li>
+                        <li><a href="results.html">Case Results</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 1234 SW Main Street<br>Portland, OR 97201</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:503-555-0123">(503) 555-0123</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:info@riversidelegal.com">info@riversidelegal.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Riverside Legal Group. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p class="legal-disclaimer">The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
